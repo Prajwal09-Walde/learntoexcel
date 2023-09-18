@@ -1,0 +1,11 @@
+.userContainer {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+
+.userContainer>CourseList {
+    margin-bottom: 20px;
+    gap: 20px;
+}

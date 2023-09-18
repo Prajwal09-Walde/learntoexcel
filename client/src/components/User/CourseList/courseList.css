@@ -1,0 +1,39 @@
+.courseList {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.courseLContainer {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #000000;
+    border-radius: 10px;
+}
+
+.courseTitle {
+    justify-content: space-between;
+    align-items: center;
+    display: block;
+    flex-direction: column;
+}
+
+.courseName {
+    font-size: 30px;
+    font-weight: 400;
+    word-spacing: normal;
+    gap: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.courseDesc {
+    font-size: 12px;
+    font-weight: 300;
+    gap: 10px;
+    display: block;
+    margin-top: 20px;
+}

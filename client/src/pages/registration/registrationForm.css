@@ -1,0 +1,63 @@
+Header {
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.registration {
+    margin: 0;
+    padding: 0;
+    max-width: 512px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    height: 50vh;
+}
+
+.rContainer {
+    box-sizing: border-box;
+    background-color: #3dbee9;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rContainer>h1 {
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+form>label {
+    width: 140px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.rButton {
+    padding: 10px;
+    background-color: #2e63cd;
+    color: #ffffff;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.rButton:hover {
+    background-color: #ffffff;
+    color: #2e63cd;
+}

@@ -1,0 +1,27 @@
+.login {
+    max-width: 512px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    height: 50vh;
+}
+
+.loginContainer {
+    background-color: #3dbee9;
+    box-sizing: border-box;
+    box-shadow: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.loginContainer>form {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    width: 20px;
+    padding: 10px 10px;
+}

@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #3dbee9;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+}
+
+.nContainer {
+    width: 100%;
+    max-width: 1024px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nButton {
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #3dbee9;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.nButton:hover {
+    background-color: #ffffff;
+    color: #3bdee9;
+}

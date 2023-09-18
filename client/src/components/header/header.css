@@ -1,0 +1,28 @@
+.header {
+    background-color: #3dbee9;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.hContainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+    overflow: hidden;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.hContainer>button {
+     background-color: #3dbee9;
+     justify-content: space-between;
+     align-items: flex-end;
+     border: solid 1px #ffffff;
+     display: flex;
+     margin-top: 50px;
+}
